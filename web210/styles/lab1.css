@@ -1,0 +1,80 @@
+/*----------------------------------
+Created by: Juan Diaz
+fall 2020
+Web 210
+----------------------------------*/
+
+body {
+    background-color: #F5F5F5;
+    /*whitesmoke*/
+    color: rgba(107, 128, 72, 0.815);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+header,
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #8a9a5b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: 3px 3px 5px gray;
+    line-height: 200%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+}
+
+h2.hobby {
+    color: #0b6623;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p,
+#tagline {
+    color: DarkSlateGray;
+}
+
+
+/* Side By Side Images*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageHobby {
+    width: 100%;
+}

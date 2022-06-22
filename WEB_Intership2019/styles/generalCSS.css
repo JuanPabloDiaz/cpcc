@@ -1,0 +1,72 @@
+body {
+  background-image: url("../image/iconFish.png");
+  background-repeat: repeat;
+  background-size: 80px;
+}
+
+footer {
+  padding-top: 2%;
+  /*margin-top: 2%; */
+  color: rgba(0, 0, 0, 0.863);
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer ul a {
+  color: rgb(39, 38, 38);
+  text-decoration: none;
+}
+
+footer ul a:hover {
+  color: rgba(39, 38, 38, 0.425);
+  text-decoration: none;
+}
+
+.responsive {
+  width: 100%;
+  height: 0%;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.responsive iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* other video CSS */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 75%;
+  /** revisar medidas */
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+/* VIDEO CENTER */
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 600px;
+}

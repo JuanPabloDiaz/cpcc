@@ -1,0 +1,179 @@
+/*----------------------------------
+Created by: Juan Diaz
+fall 2020
+Web 210
+----------------------------------*/
+/* 	Sample Styles
+	----------------------------------*/
+
+body {
+	background-color: #E1D8B9;
+}
+
+/* Change according to your color palette */
+a {
+	color: #e05348;
+	text-decoration: underline;
+	padding: 0 1px;
+}
+
+a:hover {
+	background-color: #5c584b83;
+	color: #fff6eb;
+	text-decoration: none;
+	border-bottom: 1px dotted #363636;
+}
+
+h1#header {
+	background-color: #5C5230;
+	color: #DBC372;
+	border-bottom: 5px solid #A89558;
+	font-family: 'Lato', sans-serif;
+	line-height: 80%;
+	text-shadow: 2px 3px 5px gray;
+}
+
+#webDev {
+	padding: 50px;
+	color: rgba(128, 128, 128, 0.89);
+	font-family: Consolas, monaco, monospace;
+	font-size: medium;
+	text-shadow: 2px 3px 5px rgba(255, 255, 255, 0.966);
+
+}
+
+/* 	Sample Color Palette
+		Keep your color scheme at a maximum of 5 colors to preserve visual consistency
+		----------------------------------*/
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+	border: 3px solid rgba(0, 0, 0, 0.253);
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+.color1 span,
+.color2 span,
+.color3 span,
+.color4 span,
+.color5 span {
+	background-color: rgba(133, 121, 121, 0.411);
+	padding: .5%;
+}
+
+.color1 {
+	background-color: #5C5230;
+}
+
+.color2 {
+	background-color: #E0D7B8;
+}
+
+.color3 {
+	background-color: #DBC372;
+}
+
+.color4 {
+	background-color: #5C584B;
+}
+
+.color5 {
+	background-color: #A89558;
+}
+
+/* 	Sample Typography
+		Change the font size and font stacks according to your specifications
+		----------------------------------*/
+#typography h1 {
+	font: 30px Georgia, Times New Roman, Times, serif;
+	font-weight: bold;
+}
+
+#typography h2 {
+	font: 24px Consolas, monaco, monospace;
+	font-weight: bold;
+	border: none;
+}
+
+#typography h3 {
+	font: 18px Copperplate, Copperplate Gothic Light, fantasy;
+	font-weight: bold;
+	border: none;
+}
+
+#typography p {
+	font: 13px/18px Century Gothic, Apple Gothic, sans-serif;
+}
+
+/* Change background color to match your color palette */
+#footer {
+	background-color: rgba(219, 195, 114, 0.671);
+	padding: 10px;
+	margin-top: 7px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 7px;
+}
+
+#footer img {
+	width: 3%;
+}
+
+#footer a {
+	text-decoration: none;
+	background-color: rgba(219, 195, 114, 0.671);
+}
+
+
+/*  side bar  *********   */
+
+.sideimg {
+	width: 90%;
+}
+
+figcaption {
+	text-align: center;
+}
+
+
+/**    photos   **/
+
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.imageColombia {
+	width: 100%;
+}
+
+/* Hover figcaption images*/
+
+.containerImg {
+	position: relative;
+	/*width: 50%;
+    max-width: 300px;*/
+}
+
+.imageFigCaption {
+	display: block;
+	width: 100%;
+	height: auto;
+}

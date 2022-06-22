@@ -1,0 +1,214 @@
+/*----------------------------------
+Created by: Juan Diaz
+fall 2020
+Web 210
+----------------------------------*/
+/*	==================================
+	Specimen Styles
+	Author: Corinne Ducusin
+
+	Instructions
+	----------------------------------
+	Style HTML elements like the body and headings.
+
+	Some items have labels like the sentence in varying sizes and the paragraphs.
+	The class used for the size labels is .s-label. The class used for the paragraph
+	labels is .p-label.
+
+	Paragraph Width & Line Height
+	~~~~~~~~~~~~~~~
+	When setting a certain width for paragraphs, use the width as the class. For example:
+	For a paragraph that is 470px wide use this:
+	.470 { width:470px; }
+
+	If you're setting a line height for that particular paragraph add the "line-height" property:
+	.470 { line-height:18px; width:470px; }
+
+	Colors
+	----------------------------------
+	000 = black
+	==================================*/
+
+/*  HTML Elements
+	----------------------------------*/
+body {
+	/* Add your font stack here > font-family: Ideal, Alternative, Common, Generic;*/
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #e2d7af;
+	/*whitesmoke*/
+	color: #5C584B;
+}
+
+h1 {
+	background-color: #5C5230;
+	color: #DBC372;
+	padding: 2%;
+	text-align-last: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #A89558;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h2 {
+	color: #A89558;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+/*  5 paragraphs in varying widths and leading*/
+.p1 {
+	line-height: 100%;
+}
+
+.p2 {
+	line-height: 125%;
+}
+
+.p3 {
+	line-height: 150%;
+}
+
+.p4 {
+	line-height: 175%;
+}
+
+
+.section {
+	border-top: 4px dotted #A89558;
+}
+
+/* 	layout
+	----------------------------------*/
+.container {
+	width: 90%;
+	margin: 40px auto;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #E1D8B9;
+
+}
+
+/* 	secondary layout structures
+	----------------------------------*/
+.left-column {
+	width: 470px;
+	margin-right: 20px;
+	float: left;
+}
+
+.right-column {
+	width: 470px;
+	float: left;
+}
+
+.full-width {
+	clear: both;
+}
+
+/* 	misc
+	----------------------------------*/
+.center {
+	text-align: center;
+}
+
+.p-label {}
+
+/* Applied to paragraph labels*/
+.s-label {}
+
+/* Applied to size labels */
+.sz42 {
+	font-size: 42px;
+}
+
+.sz36 {
+	font-size: 36px;
+}
+
+.sz30 {
+	font-size: 30px;
+}
+
+.sz24 {
+	font-size: 24px;
+}
+
+.sz21 {
+	font-size: 21px;
+}
+
+.sz18 {
+	font-size: 18px;
+}
+
+.sz16 {
+	font-size: 16px;
+}
+
+.sz14 {
+	font-size: 14px;
+}
+
+.sz13 {
+	font-size: 13px;
+}
+
+.sz12 {
+	font-size: 12px;
+}
+
+.sz11 {
+	font-size: 11px;
+}
+
+.sz10 {
+	font-size: 10px;
+}
+
+.sz9 {
+	font-size: 9px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* sANS-Serif */
+/* This text is in Candara */
+.fontStack1 {
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+/* serif */
+/* This text is in Baskerville */
+.fontStack2 {
+	font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+}
+
+/* monospace */
+/* This text is in Rockwell Extra Bold */
+.fontStack3 {
+	font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+}
+
+footer {
+	background-color: rgba(219, 195, 114, 0.671);
+	padding: 10px;
+	margin-top: 7px;
+	text-align-last: center;
+}
+
+footer img {
+	width: 3%;
+}
+
+footer a {
+	text-decoration: none;
+}

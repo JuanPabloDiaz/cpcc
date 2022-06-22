@@ -1,0 +1,132 @@
+/*	social media	To edit the social menu
+http://kadumweb.com/crear-sprite-css-ejemplo-mejora-seo/
+*/
+
+.facebook,
+.wordpress,
+.dropbox,
+.victoriaRodriguez,
+.html,
+.css,
+.windows,
+.android,
+.users,
+.github,
+.chrome,
+.linkedin,
+.instagram {
+    background-image: url('../image/social-media-sprite.png');
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    border: solid 1px #201f1f6c;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-position: -10px -243px;
+}
+
+.facebook:hover {
+    background-position: -10px -8px;
+}
+
+.wordpress {
+    background-position: -10px -287px;
+}
+
+.wordpress:hover {
+    background-position: -10px -52px;
+}
+
+.dropbox {
+    background-position: -10px -331px;
+}
+
+.dropbox:hover {
+    background-position: -10px -96px;
+}
+
+.victoriaRodriguez {
+    background-position: -10px -419px;
+}
+
+.victoriaRodriguez:hover {
+    background-position: -10px -184px;
+}
+
+.css {
+    background-position: -52px -419px;
+}
+
+.css:hover {
+    background-position: -52px -184px;
+}
+
+.html {
+    background-position: -98px -419px;
+}
+
+.html:hover {
+    background-position: -98px -184px;
+}
+
+.windows {
+    background-position: -139px -375px;
+}
+
+.windows:hover {
+    background-position: -139px -140px;
+}
+
+.android {
+    background-position: -139px -419px;
+}
+
+.android:hover {
+    background-position: -139px -184px;
+}
+
+.users {
+    background-position: -184px -242px;
+}
+
+.users:hover {
+    background-position: -184px -8px;
+}
+
+.github {
+    background-position: -184px -331px;
+}
+
+.github:hover {
+    background-position: -184px -96px;
+}
+
+.chrome {
+    background-position: -184px -375px;
+}
+
+.chrome:hover {
+    background-position: -184px -140px;
+}
+
+.linkedin {
+    background-position: -228px -243px;
+}
+
+.linkedin:hover {
+    background-position: -228px -8px;
+}
+
+.instagram {
+    background-position: -270px -243px;
+}
+
+.instagram:hover {
+    background-position: -270px -8px;
+}
+
+
+/** icons */

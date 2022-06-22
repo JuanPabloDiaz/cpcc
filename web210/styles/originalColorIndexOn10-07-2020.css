@@ -1,0 +1,290 @@
+/*----------------------------------
+Created by: Juan Diaz
+fall 2020
+Web 210
+----------------------------------*/
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana;
+    color: #aaaaaa;
+}
+
+header {
+    background-color: #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+
+#websiteAllContent {
+    overflow: auto;
+
+}
+
+.main {
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+/* imagenes de la derecha*/
+.right img {
+    width: 90%;
+}
+
+q {
+    font-style: italic;
+}
+
+#Monserrate {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+#Developer {
+    width: 80%;
+}
+
+.courseLinks a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.courseLinks a:hover {
+    color: blue;
+}
+
+
+/*  NAV   */
+.menu {
+    float: left;
+    width: 10%;
+    /*    text-align: left;*/
+    background-color: #f1f1f1;
+}
+
+/* regular menu and Dropdown Button */
+.menu a,
+.dropbtn {
+    /* background-color: #e5e5e5;
+    */
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-size: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10%;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #cac5c5;
+}
+
+/* Style the buttons inside the menu */
+.menu button,
+menu .buttonLink {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 5% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.menu button:hover,
+.menu a:hover {
+    background-color: gray;
+    color: rgb(237, 248, 187);
+}
+
+/* Create an active/current "menu button" class */
+.menu button.active {
+    background-color: gray;
+}
+
+
+/* Clear floats after the menu */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+/*  END NAV*/
+/* Side By Side Colombian Images*/
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageColombia {
+    width: 100%;
+}
+
+/* Hover figcaption images*/
+
+.containerImg {
+    position: relative;
+    /*width: 50%;
+    max-width: 300px;*/
+}
+
+.imageFigCaption {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerImg:hover .overlay {
+    opacity: 1;
+}
+
+#ColombianMap {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+footer img {
+    width: 3%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* responsable page... */
+
+/* For mobile phones and Tablets: */
+@media only screen and (max-width:950px) {
+    .menu {
+        width: 13%;
+    }
+
+    #hideonmobile {
+        display: none;
+    }
+
+    .main {
+        width: 85%;
+    }
+
+    /* imagenes de la derecha*/
+
+
+    @media only screen and (max-width:768px) {
+
+        .menu,
+        .main,
+        .right {
+            width: 100%;
+            height: 10%;
+        }
+
+        .menu a,
+        .dropdown-content {
+            text-align: center;
+
+        }
+
+        .menu button,
+        menu .buttonLink {
+            padding: 1% .5%;
+            text-align: center;
+            font-size: 15px;
+        }
+
+    }
+
+    /* For mobile phones*/
+
+    @media only screen and (max-width:430px) {
+        header h1 {
+            font-size: 120%;
+        }
+    }

@@ -1,0 +1,79 @@
+<!--
+
+1   Create a form for whatever purpose. (e.g. contact form, comment form, sign-up form or quote request form.)
+2   A minimum of 4 inputs are required. You can use any type of input such as text input, radio buttons, checkboxes, textarea, multi-select box and so forth. Also, be sure to show the visitor what is required.
+3   Style your form with CSS. The HTML form elements that can be styled are label, input, textarea, submit, and select, just to name a few. For inspiration, visit the “Forms” collection at PatternTap: https://patterntap.com/library/search?query=forms&property=patterns
+4   If you are able to make your form functional, great, but it is not required.
+5   When you're done, validate your page.
+6   Check your form in various browsers (e.g.IE, Firefox, Opera, Safari, Chrome) to ensure that it looks similar across different platforms. If you don't have some of the browsers installed, visit http://browsershots.org.
+7   Submit your assignment by posting 1) a hyperlink to your form and 2) a hyperlink to your CSS stylesheet.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Juan Diaz</title>
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="https://static.thenounproject.com/png/583643-200.png" type="image/icon type">
+
+</head>
+
+<body>
+
+    <header id="Home">
+        <h1>BMI Calculator</h1>
+    </header>
+    <p>Body mass index, or BMI, is a way to help you figure out if you are at a healthy weight for your height. BMI is a
+        number based on your weight and height. In general, the higher the number, the more body fat a person has. BMI
+        is often used as a screening tool to decide if your weight might be putting you at risk for health problems such
+        as heart disease, diabetes, and cancer.</p>
+        <p>Bellow is a form to calculate your Body Mass Index:</p>
+    <br> </head>
+    <form action="#">
+            <legend>Calculate Your Body Mass Index</legend>
+            <br><br>
+            <input type="text" id="height" placeholder="Enter your height..." required/>
+            <select type="multiple" id="heightunits">
+                <option value="metres" selected="selected">Metres</option>
+                <option value="inches">Inches</option>
+            </select>
+            <input type="text" id="weight" placeholder="Enter your weight..." required/ />
+            <select type="multiple" id="weightunits">
+                <option value="kg" selected="selected">Kg</option>
+                <option value="lb">Lb</option>
+            </select>
+            <br><br>
+            <input type="submit" value="CALCULATE" onclick="computeBMI(); ">
+    </form>
+
+    <h4 style="text-align: center;">Your BMI is: <span id="output"></span></h4>
+
+    <ul><b>Remember...</b>
+        <li><strong>Underweight:</strong> BMI is less than 18.5</li>
+        <li><strong>Normal weight:</strong> BMI is 18.5 to 24.9</li>
+        <li><strong>Overweight:</strong> BMI is 25 to 29.9</li>
+        <li><strong>Obese:</strong> BMI is 30 or more</li>
+    </ul>
+    <footer>
+        <p> Designed by Juan Diaz &copy;2020</p>
+        <!--        <a href="http://validator.w3.org/check?uri=referer">        -->
+        <a href="https://validator.w3.org/nu/?doc=http://students.cpcc.edu/~jdiaz028/web210/diaz_lab5_forms.html">
+            <img src="http://students.cpcc.edu/~jdiaz028/web210/images/html_validation_button.gif"
+                alt="validate html" />
+        </a>
+
+        <!--         <a href="http://jigsaw.w3.org/css-validator/check/referer">--> <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=http://students.cpcc.edu/~jdiaz028/web210/diaz_lab5_forms.html"><img
+                src="http://students.cpcc.edu/~jdiaz028/web210/images/validation_button_css.png" alt="validate CSS" />
+        </a>
+    </footer>
+    <div class="clearfix"></div>
+
+    <script src="scripts/MBI_form.js"></script>
+    <!-- https://stackoverflow.com/questions/21698044/basic-bmi-calculator-html-javascript -->
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+* {
+    font-family: 'Charm', cursive;
+}
+
+h2 {
+    font-weight: 800;
+    color: rgb(41, 33, 33);
+}
+
+.container {
+    margin: 0 auto;
+    /* permite establecer una estructura y contener todo segun el sigueinte width */
+    width: 90%;
+    padding: 20px;
+    margin-top: 210px;
+    padding: 15px 15px 20px;
+}
+
+.flex {
+    display: flex;
+    /* hacer que todo se convierta en columnas */
+    flex-wrap: wrap;
+    /* permite generar columnas o no segun el width en .columnas  y asi mismo respete el width establecido*/
+    flex-direction: row;
+    /* row para PC y column para celular*/
+    justify-content: flex-end;
+    /* ubica elementos segun - pero no pasa nada por .text-center */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vertical {
+    align-items: center;
+    /* posiciona elementos verticalmente*/
+}
+
+.columna {
+    background: rgb(238, 238, 238);
+    color: darkslategray;
+    border: 1px solid brown;
+    margin: 0 auto;
+    /* margen del medio es automatico con el width:23%*/
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(40, 42, 40, 0.514);
+    width: 30%;
+    /* dependiendo de # columnas - no es 25 para generar margen */
+    box-sizing: border-box;
+}
+
+.number {
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+}
+
+.btn-learnMore {
+    background: salmon;
+    display: block;
+    /* para que use todo el espacio */
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-learnMore:hover {
+    background: rgb(247, 100, 84);
+}
+
+
+/*
+  .logoAlineado {
+    align-items: baseline; */
+
+
+/* este me puede permitir alinaer el logo */
+
+
+/*
+  }
+  .logoAlteradoEx {
+    font-size: 30px;
+  } */
+
+
+/*  Flex wrap columnas responsables dependiendo del tamano del display*/
