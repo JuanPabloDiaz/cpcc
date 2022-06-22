@@ -1,0 +1,13 @@
+head
+- meta
+- title
+- link to css
+
+body
+- header
+- main
+- footer
+  - Validation stuff
+  - note (i.e .designed by or copyright...)
+
+smarter way to learn - excersices
