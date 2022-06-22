@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Juan Diaz" />
+    <title>DACA | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="css/daca.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gamja+Flower"
+      rel="stylesheet"
+    />
+    <!--font-->
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav id="navbar">
+          <div class="container">
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="news.html">News</a></li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                  <a href="#" onclick='alert("Under construction!")'>Guides</a>
+                  <a href="#" onclick='alert("Under construction!")'>Info</a>
+                  <a href="#" onclick='alert("Under construction!")'>Search</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Resources</a>
+                <div class="dropdown-content">
+                  <a href="more.html">Learn More</a>
+                  <a href="https://unitedwedream.org/">Official Web</a>
+                  <a href="https://www.fwd.us/immigration/dreamers/">Learn</a>
+                </div>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <img id="logo-img" src="images/iconDaca.png" alt="logo icon" />
+      </header>
+      <!-- CONTENT STARTS HERE -->
+      <section>
+        <div class="container">
+          <h2 style="text-align: center">This site is under construction...</h2>
+          <iframe
+            width="550"
+            height="350"
+            src="https://www.youtube.com/embed/HeIFciOya0Q"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            style="margin: auto"
+          ></iframe>
+        </div>
+      </section>
+      <div class="container">
+        <br />
+        <fieldset id="form-contactUs" style="display: inline-block">
+          <legend>Contact Us by email</legend>
+          <p id="description">Please enter your<br />Contact information</p>
+          <form id="myForm" action="#" method="post">
+            <input
+              id="firstName"
+              type="text"
+              placeholder="First Name (juan)"
+              required
+            /><br />
+            <input
+              id="lastName"
+              type="text"
+              placeholder="Last Name (Diaz)"
+              required
+            /><br />
+            <input
+              id="phone"
+              type="tel"
+              placeholder="Phone Number "
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            /><br />
+            <input
+              id="email"
+              type="email"
+              placeholder="CPCC Email (@email.cpcc.edu)"
+              pattern=".+@email.cpcc.edu, @.cpcc.edu"
+              size="30"
+              multiple
+              required
+            /><br />
+            <select id="select">
+              <option value="one">Did you find what you need?</option>
+              <option value="two">Yes</option>
+              <option value="three">No</option></select
+            ><br />
+            <p id="comment">Any Comments or concerns?</p>
+            <textarea
+              id="comments"
+              placeholder="Type here (Optional)"
+            ></textarea
+            ><br />
+            <button
+              id="getData"
+              type="button"
+              name="button"
+              onclick='alert("Under construction!")'
+            >
+              Submit
+            </button>
+            <!-- temporary script -->
+          </form>
+        </fieldset>
+      </div>
+      <!-- CONTENT ENDS HERE -->
+    </main>
+    <footer style="clear: both">
+      <p>
+        <a
+          id="copy"
+          href="https://www.bitlaw.com/internet/webpage.html#copyright"
+          title="copy"
+          >Copyright</a
+        >
+        &copy; 2018 My Website
+      </p>
+    </footer>
+    <div class="footer-img">
+      <!-- 				Image Map 			-->
+      <img
+        src="images/dacaBanner.png"
+        alt="DACA's banner"
+        usemap="#mappingDACA"
+        class="logoBanner"
+      />
+
+      <map name="mappingDACA">
+        <area
+          shape="rect"
+          coords="17,17,160,160"
+          alt="DACA Logo"
+          href="https://th.bing.com/th/id/OIP.7ySP_dyI2LptH8KkWufGmgHaGf?pid=ImgDet&rs=1"
+        />
+        <area
+          shape="rect"
+          coords="1100,80,1170,157"
+          alt="Linedin"
+          href="https://www.linkedin.com/company/daca"
+          title="Linedin"
+        />
+        <area
+          shape="rect"
+          coords="1200,80,1300,157"
+          alt="facebook"
+          href="https://www.facebook.com/pg/DeferredActionForChildhoodArrivalsdaca/about/?ref=page_internal"
+          title="facebook"
+        />
+        <area
+          shape="rect"
+          coords="1300,80,1400,157"
+          alt="Instagram"
+          href="https://www.instagram.com/explore/tags/daca/?hl=en"
+          title="Instagram"
+        />
+        <area
+          shape="rect"
+          coords="1400,80,1500,157"
+          alt="HomelandSecurity"
+          href="https://www.uscis.gov/archive/consideration-deferred-action-childhood-arrivals-daca"
+          title="HomelandSecurity"
+        />
+      </map>
+      <!-- 				END Image Map 			-->
+    </div>
+  </body>
+</html>

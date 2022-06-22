@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ASmarterWayToLearn</title>
+	<!--numeros:
+	http://www.lexisrex.com/Ingl%C3%A9s-N%C3%BAmeros/1-100-->
+	<link href="https://fonts.googleapis.com/css?family=Courgette"	rel="stylesheet"> <!--fonts-->
+	<script>
+	
+	
+	</script>
+	<style>
+		* {
+			text-align: center;
+			background: #280000 ;
+			color: navajowhite;
+			font-family: 'Courgette', cursive;  
+		}
+		body {
+			margin-left: 50px;
+			margin-right: 50px;
+			font-size: 150%;
+}
+		/**********botton*************/
+		.button {
+			font-size: 125%;
+			border-radius: 30px;
+			background-color: #585858;
+			padding: 5px 10px 8px 10px;
+			}
+		.button:hover {
+			animation-name: background-color;
+			animation-duration: 500ms;
+			animation-fill-mode: forwards;
+			}
+		@keyframes background-color {
+			100% {
+				background-color: #808080;
+				}
+			}
+/***********************/
+		h1 {
+			background: #700000 ;
+		}
+		a {
+			text-decoration:none;
+			}
+		.ideaOne {
+			float: left;
+		}
+		.ideaTwo {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<h1>A Smarter Way To Learn!!</h1>
+	<img class="ideaOne" src="../idea.png" alt="ideabulb">
+	<img class="ideaTwo" src="../idea2.png" alt="ideabulb">
+</header>
+	<h2>JavaScript</h2>
+	
+	<h3>ChapterOne(1)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			<b>alert</b>("Hello world!!");
+		</p>
+		<input type="button" class="button" onclick="clickAlert1()" value="CH 1" title="Click me to run">
+	<script>
+		<!-- ChapterOne(1) -->
+		function clickAlert1() {
+			alert("Hello world!!");
+		}
+	</script>
+	<!--***********************************-->
+	<h3>ChapterTwo(2)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			var myBrand; myBrand = VA Hosting; alert("We are " + myBrand); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert2()" value="CH 2" title="Click me to run">
+	<script>
+		<!-- ChapterTwo(2) -->
+		function clickAlert2() {
+			var myBrand;
+			myBrand = "Victoria Rodriguez";
+			alert("We are " + myBrand);		}
+	</script>
+	<!--***********************************-->
+	<h3>ChapterThree(3)...</h3>
+		<p><b><i>Statement:</i></b><br>
+ 			var servers; servers = 1; var newServers = servers + 1; alert("Thank for join us! Now we are " + newQuantity + " !); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert3()" value="CH 3" title="Click me to run">
+	<script>
+		<!-- ChapterThree(3) -->
+		function clickAlert3() {
+			var quantity;
+			quantity = 1;
+			var newQuantity = quantity + 1;
+			alert("Thank for join us! Now we are " + newQuantity + " !"); 		
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterFour(4)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			alert("Variable names can only contain letters, numbers, the '$' symbol, and the '_' symbol. Letters can be capital but are case sensitive. Numbers can only come after the first letter. The '$' or '_' can be in any order."); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert4()" value="CH 4" title="Click me to run">
+	<script>
+		<!-- ChapterFour(4) -->
+		function clickAlert4() {
+			alert("Variable names can only contain letters, numbers, the '$' symbol, and the '_' symbol. Letters can be capital but are case sensitive. Numbers can only come after the first letter. The '$' or '_' can be in any order."); 
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterFive(5)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			 var ch5computers; ch5computers = 15; var newch5machines = ch5computers - 2; alert("Unfortunatelly, now we have only " + newch5machines" + machines out of " + ch5computers + "!"); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert5()" value="CH 5" title="Click me to run">
+	<script>
+		<!-- ChapterFive(5) -->
+		function clickAlert5() {
+          var ch5computers;
+          ch5computers = 15;
+          var newch5machines = ch5computers - 2;
+          alert("Unfortunatelly, now we have only " + newch5machines + " machines out of " + ch5computers + "!"); 
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterSix(6)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			 var fifth = 5; var six = ++fifth; alert("this chapter is the fifth plus one, which is equal to: " + fifth + six + "!");  
+		</p>
+		<input type="button" class="button" onclick="clickAlert6()" value="CH 6" title="Click me to run">
+	<script>
+		<!-- ChapterSix(6) -->
+		function clickAlert6() {
+			var fifth = 5;
+			var six = ++fifth;
+			alert("this chapter is the fifth plus one, which is equal to: " + six + "!"); 
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterSeven(7)...</h3>
+		<p><b><i>Statement:</i></b><br>
+          var class1 = 50; var class2 = 2; var class3 = 15; var totalClass = (class1 * class2) + class3; alert("The class we are taking is: "<b>WEB</b> " + totalClass); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert7()" value="CH 7" title="Click me to run">
+	<script>
+		<!-- ChapterSeven(7) -->
+		function clickAlert7() {
+			var class1 = 50;
+            var class2 = 2;
+            var class3 = 15;
+            var totalClass = (class1 * class2) + class3;
+            alert("The class we are taking is: WEB " + totalClass);
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterEight(8)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			 var ch8alert = "Concatenated alerts contain the addition(+) symbol more than one (" + 1 + ") times"; alert(ch8alert); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert8()" value="CH 8" title="Click me to run">
+	<script>
+		<!-- ChapterEight(8) -->
+		function clickAlert8() {
+			var ch8alert = "Concatenated alerts contain the addition(+) symbol more than one (" + 1 + ") times";
+			alert(ch8alert); 
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterNine(9)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			 var namePrompt = "Please input your name:"; var defaultAnswer = "YourName"; var username = prompt(namePrompt, defaultAnswer); alert("We will be happy to host a server for you, " + username); 
+		</p>
+		<input type="button" class="button" onclick="clickAlert9()" value="CH 9" title="Click me to run">
+	<script>
+		<!-- ChapterNine(9) -->
+		function clickAlert9() {
+			var namePrompt = "Please input your name:";
+			var defaultAnswer = "YourName";
+			var username = prompt(namePrompt, defaultAnswer);
+			alert("We will be happy to host a server for you, " + username); 
+		}
+	</script>
+	<!--***********************************-->
+		<h3>ChapterTen(10)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			 var ch10question = prompt(""Do you know what is the main campus of CPCC?"); if (ch10question === "Central" || ch10question === "central" || ch10question === "CENTRAL")  { alert("Thats right!"); } else { alert("Sorry, thats not the main campus!"); } 
+		</p>
+		<input type="button" class="button" onclick="clickAlert10()" value="CH 10" title="Click me to run">
+	<script>
+		<!-- ChapterTen(10) -->
+		function clickAlert10() {
+			var ch10question = prompt("Do you know what is the main campus of CPCC?");
+				if (ch10question === "Central" || ch10question === "central" || ch10question === "CENTRAL") {
+					alert("Thats right!");
+					}
+				else { 
+					alert("Sorry, that is not the main campus!");
+						 } 
+		}
+	</script>
+	<!--***********************************-->
+		<footer>
+		<p>Designed by Juan Diaz &copy;2018</p>
+		<br />	 
+
+		<a href="http://validator.w3.org/check?uri=referer" accesskey="h">
+				<img src="../../images/validationbuttonhtml.gif" alt="Validate HTML5" width="90" style="border:0px;" />
+			</a>
+    	<a href="http://jigsaw.w3.org/css-validator/check/referer" accesskey="c">
+				<img src="../../images/validationbuttoncss.gif"  alt="Validate CSS" width="90" style="border:0px;"/>
+		</a>
+		<br />		<br />
+	</footer>	  
+</body>	 
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aprendiendo a hacer navegacion responsable</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+</head>
+<body>
+    <nav>
+       <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#" class="nav-enlace desaparecer">Inicio</a>
+        <a href="#" class="nav-enlace desaparecer">Nosotros</a>
+        <a href="#" class="nav-enlace desaparecer">Servicios</a>
+        <a href="#" class="nav-enlace desaparecer">Contactos</a>
+    </nav>
+    <script>
+  function accion(){
+    console.log('esta funcionando mi boton');
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for( var i =0; i <ancla.length; i ++){
+      ancla[i].classList.toggle('desaparecer');
+    }
+  }
+  </script>
+</body>
+</html>

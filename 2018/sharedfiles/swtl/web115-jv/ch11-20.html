@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ASmarterWayToLearn</title>
+	<!--numeros:
+	http://www.lexisrex.com/Ingl%C3%A9s-N%C3%BAmeros/1-100-->
+	<link href="https://fonts.googleapis.com/css?family=Courgette"	rel="stylesheet"> <!--fonts-->
+	<script>
+	
+	
+	</script>
+	<style>
+		* {
+			text-align: center;
+			background: #280000 ;
+			color: navajowhite;
+			font-family: 'Courgette', cursive;  
+		}
+		body {
+			margin-left: 50px;
+			margin-right: 50px;
+			font-size: 150%;
+}
+		/**********botton*************/
+		.button {
+			font-size: 125%;
+			border-radius: 30px;
+			background-color: #585858;
+			padding: 5px 10px 8px 10px;
+			}
+		.button:hover {
+			animation-name: background-color;
+			animation-duration: 500ms;
+			animation-fill-mode: forwards;
+			}
+		@keyframes background-color {
+			100% {
+				background-color: #808080;
+				}
+			}
+/***********************/
+		h1 {
+			background: #700000 ;
+		}
+		a {
+			text-decoration:none;
+			}
+		.ideaOne {
+			float: left;
+		}
+		.ideaTwo {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<h1>A Smarter Way To Learn!!</h1>
+	<img class="ideaOne" src="../idea.png" alt="ideabulb">
+	<img class="ideaTwo" src="../idea2.png" alt="ideabulb">
+</header>
+	<h2>JavaScript</h2>
+
+	<!--****************Comparison operators*******************-->
+		<h3>ChapterEleven(11)...</h3>
+		<p><b><i>Statement:</i></b><br>
+		var ch11 = prompt("Is Colombia (the South American country) with U or O?"); if (ch11 === "o" || ch11 === "O") { alert("You are right! Colombia is with "O", Columbia with "U" is the capital of SC" ); } else { alert("Sorry, try again later"); } }
+		</p>
+		<input type="button" class="button" onclick="clickAlert11()" value="CH 11" title="Click me to run">
+	<script>
+		<!-- Chapter(11) -->
+		function clickAlert11() {
+			var ch11 = prompt("Is Colombia (the South American country) with U or O?");
+				if (ch11 === "o" || ch11 === "O") {
+					alert("You are right! Colombia is with &rdquo;O&rdquo;, Columbia with &rdquo;U&rdquo; is the capital of SC");
+				}
+                  else { 
+					alert("Sorry, try again later");
+						 } 
+		}
+	</script>
+	<!--*************if...else and else if statements**********************-->
+		<h3>ChapterTwelve(12)...</h3>
+		<p><b><i>Statement:</i></b><br>
+		    var gender = prompt("What is your gender?"); if (gender === "female" || gender === "Female" || gender === "FEMALE") { alert("Girly!");} else if (gender === "male" || gender === "Male" || gender === "MALE"){alert("Macho!!");} else { alert("Sorry, that is not an option, try again later"); } 
+		</p>
+		<input type="button" class="button" onclick="clickAlert12()" value="CH 12" title="Click me to run">
+	<script>
+		<!-- Chapter(12) -->
+		function clickAlert12() {
+			var gender = prompt("What is your gender?");
+				if (gender === "female" || gender === "Female" || gender === "FEMALE") {
+					alert("Girly!");
+				}
+                  else if (gender === "male" || gender === "Male" || gender === "MALE") 
+                  {
+					 alert("Macho!!");
+                  }
+				else { 
+					alert("Sorry, that is not an option, try again later");
+						 } 
+		}
+	</script>
+	<!--**************Testing sets of conditions*********************-->
+		<h3>ChapterThirteen(13)...</h3>
+		<p><b><i>Statement:</i></b><br>
+          alert("Is 10 is equal to 10?"); var ch13question = 10; if (ch13question <= 10 || ch13question >= 12) { alert("Thats right! 10 is equal to 10");} else { alert("Sorry, try again later!");	
+        </p>
+		<input type="button" class="button" onclick="clickAlert13()" value="CH 13" title="Click me to run">
+	<script>
+		<!-- Chapterthirteen(13) -->
+		function clickAlert13() {
+            alert("Is 10 is equal to 10?");
+			var ch13question = 10;
+				if (ch13question <= 10 || ch13question >= 12) {
+					alert("Thats right! 10 is equal to 10");
+					}
+				else { 
+					alert("Sorry, try again later!");
+						 } 
+		}
+	</script>
+	<!--*****************Nested If Statements******************-->
+			<h3>ChapterFourteen(14)...</h3>
+		<p><b><i>Statement:</i></b><br>
+          var ch14question = prompt("Are you male or female?"); if (ch14question === "male" || ch14question === "Male" || ch14question === "MALE"){	var age = prompt("Are you 21 or older?"); if (age === "yes" || age === "YES" || age === "Yes") {	alert("You have to register in the Colombian army!");	} else { alert("You won't qualify to the Colombian army!");	}	}	else if (ch14question === "female" || ch14question === "Female" || ch14question === "FEMALE") {	alert("You wont qualify to the Colombian army!"); }	else { alert("Sorry, try again later!"); } 
+		</p>
+		<input type="button" class="button" onclick="clickAlert14()" value="CH 14" title="Click me to run">
+	<script>
+		<!-- Chapter(14) -->
+		function clickAlert14() {
+			var ch14question = prompt("Are you male or female?");
+			if (ch14question === "male" || ch14question === "Male" || ch14question === "MALE") 
+				{
+					var age = prompt("Are you 21 or older?");
+						if (age === "yes" || age === "YES" || age === "Yes") 
+							{
+							alert("You have to register in the Colombian army!");
+							} else { 
+								alert("You won't qualify to the Colombian army!");
+						  	} 
+				}
+			else if (ch14question === "female" || ch14question === "Female" || ch14question === "FEMALE") 
+				{
+					alert("You wont qualify to the Colombian army!");
+				}
+			else { 
+					alert("Sorry, try again later!");
+					} 
+		}
+	</script>
+	<!--**************Arrays*********************-->
+		<h3>ChapterFifteen(15)...</h3>
+		<p><b><i>Statement:</i></b><br>
+		var MyName = ["Juan", "Pablo", "Diaz", "Rodriguez"];
+		My middle name is...
+		alert(names[2]);
+		</p>
+		<input type="button" class="button" onclick="clickAlert15()" value="CH 15" title="Click me to run">
+	<script>
+		<!-- Chapter(15) -->
+		function clickAlert15() {
+			var MyName = ["Juan", "Pablo", "Diaz", "Rodriguez"];
+            alert("My middle name is...");
+            alert(MyName[1]);
+        }
+	</script>
+	<!--**************Arrays: adding and removing elements*********************-->
+	<h3>ChapterSixteen(16)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			var name = [" Juan", " Pablo", " Diaz", " Rodriguez"];
+            alert("Array:[ Juan, Pablo, Diaz, Rodriguez ] Replacing the first name to David and removing the second lastName");
+            name[0] = " David";
+            name.pop();
+            alert(name);
+        }		
+		</p>
+		<input type="button" class="button" onclick="clickAlert16()" value="CH 16" title="Click me to run">
+	<script>
+		<!-- Chapter(16) -->
+		function clickAlert16() {
+			var name = [" Juan", " Pablo", " Diaz", " Rodriguez"];
+            alert("Array:[ Juan, Pablo, Diaz, Rodriguez ] \nReplacing the first name to David and removing the second lastName");
+            name[0] = " David";
+            name.pop();
+            alert(name);
+        }
+	</script>
+	<!--***************Arrays: removing, inserting, and extracting elements********************-->
+	<h3>ChapterSeventeen(17)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			var ch17question = [" Juan", " Diaz", " (704) 801-8920"];
+			alert("ch17question = [ " + ch17question + " ]");
+			prompt("Insert the name of the class (Web-115) into the array between my lastName and my phone number.");
+				if (ch17question() === "ch17question.splice(2, 0, "Web-115");") 
+				{
+					alert("Good Job!!");
+				}
+			else { 
+					alert("Sorry, try again later!");
+					} 
+				}
+		</p>
+		<input type="button" class="button" onclick="clickAlert17()" value="CH 17" title="Click me to run">
+	<script>
+		<!-- Chapter(17) -->
+		function clickAlert17() {
+			var ch17question = [" Juan", " Diaz", " (704) 801-8920"];
+			prompt("ch17question = [ " + ch17question + " ]\nInsert the name of the class (Web-115) into the array between my lastName and my phone number.");
+				if (ch17question() === "ch17question.splice(2, 0, &rdquo;Web-115&rdquo;);") 
+				{
+					alert("Good Job!!");
+				}
+			else { 
+					alert("Sorry, try again later!");
+					} 
+				}
+	</script>
+	<!--**************for loops*********************-->
+	<h3>ChapterEighteen(18)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			var ch18question = ""; var i; for (i = 0; i &lsaquo; 5; i++) { ch18question += "The number is " + i + "\n"; }	document.getElementById("loop").innerHTML = ch18question;	}
+		</p>
+		<p id="loop"></p>
+		
+		<input type="button" class="button" onclick="clickAlert18()" value="CH 18" title="Click me to run">
+	<script>
+		<!-- Chapter(18) -->
+		function clickAlert18() {
+		var ch18question = "";
+		var i;
+		for (i = 0; i < 5; i++) {
+				ch18question += "The number is " + i + "<br>";
+		}
+		document.getElementById("loop").innerHTML = ch18question;
+		}
+	</script>
+	<!--********* for loops: flags, Booleans, array length, and loopus interruptus*************-->
+	<h3>ChapterNineteen(19)...</h3>
+		<p><b><i>Statement:</i></b><br>
+		var PC = [" Hp", " Dell", " Toshiba", " Samsung", " Acer", " LG"];
+		var ch19question = ""; var i; for (i = 0; i &lsaquo; PC.length; i++) {    ch19question += PC[i]\n;}document.getElementById("loop19").innerHTML = ch19question; }
+		</p>
+		<p id="loop19"></p>
+		
+		<input type="button" class="button" onclick="clickAlert19()" value="CH 19" title="Click me to run">
+	<script>
+		<!-- Chapter(19) -->
+		function clickAlert19() {
+			var PC = [" Hp", " Dell", " Toshiba", " Samsung", " Acer", " LG"];
+var ch19question = "";
+var i;
+for (i = 0; i < PC.length; i++) {
+    ch19question += PC[i] + "<br>";
+}
+document.getElementById("loop19").innerHTML = ch19question;
+		}
+</script>
+	<!--*****************for loops nested******************-->
+	<h3>ChapterTwenty(20)...</h3>
+		<p><b><i>Statement:</i></b><br>
+			var ch20question = [" J", " U", " A", " N"];
+			var ch20question1 = [" D", " I", " A", " Z"];
+			var options = [];
+			for (var i = 0; i &lsaquo; ch20question.length; i++) {
+			for (var j = 0; j &lsaquo; ch20question1.length; j++) {
+			options.push(ch20question [i] + ch20question1[j]); } }
+			document.getElementById("names").innerHTML = options += "";
+		}	
+		</p>
+		<p id="names"></p>
+
+		<input type="button" class="button" onclick="clickAlert20()" value="CH 20" title="Click me to run">
+	<script>
+		<!-- Chapter(20) -->
+		function clickAlert20() {
+			var ch20question = [" J", " U", " A", " N"];
+			var ch20question1 = [" D", " I", " A", " Z"];
+			var options = [];
+			for (var i = 0; i < ch20question.length; i++) {
+			for (var j = 0; j < ch20question1.length; j++) {
+			options.push(ch20question [i] + ch20question1[j]); } }
+			document.getElementById("names").innerHTML = options += "";
+		}
+	</script>
+	<!--***********************************-->
+		<footer>
+		<p>Designed by Juan Diaz &copy;2018</p>
+		<br />	 
+
+		<a href="http://validator.w3.org/check?uri=referer" accesskey="h">
+				<img src="../../images/validationbuttonhtml.gif" alt="Validate HTML5" width="90" style="border:0px;" />
+			</a>
+    	<a href="http://jigsaw.w3.org/css-validator/check/referer" accesskey="c">
+				<img src="../../images/validationbuttoncss.gif"  alt="Validate CSS" width="90" style="border:0px;"/>
+		</a>
+		<br />		<br />
+	</footer>	  
+</body>	 
+</html>

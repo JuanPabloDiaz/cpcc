@@ -1,0 +1,68 @@
+*{
+	margin: 0; 
+}
+.nav-enlace {
+  background: salmon;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;    /* convierte cajas para q esten pegadas una de la otra */
+	text-decoration: none;
+	
+}
+.nav-enlace:hover{
+	background: gray;
+}
+nav {
+  background: black;
+  padding: 5px;
+  display: flex;  /* borra espacio entre cajas de navegacion */
+  justify-content: flex-end;  /* igual q: text aline right*/
+}
+.nav-boton {
+  background: salmon;
+  color: white;
+  padding: 10px 0;
+  border: 2px solid white;
+  display: none; /* solo aparece cuando este por debajo de 600px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {    /*   hagame lo siguiente cuando maximo sea 600px  */
+  body{
+    background: purple;
+  }
+  nav {
+    background: gray;
+    flex-direction: column;
+    color: aqua
+  }
+  .nav-enlace {
+    background: white;
+    color: gray;
+    text-align: right;
+    margin: 20px 0;
+  }
+  .nav-boton {  /*borrar y aparecer boton-menu*/
+    display: inline-block
+  }
+  .desaparecer {
+    display: none;    /* borra menu dependiendo del tamano del dispositivo*/
+  }
+}
+  
